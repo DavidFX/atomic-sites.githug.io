@@ -30,7 +30,7 @@ h1 {
 .inner__quote {
     display: flex;
     flex-direction: column;
-    width: 500px;
+    min-width: 500px;
     height: 100px;
     background-color: wheat;
     padding: 5%;
