@@ -22,4 +22,14 @@ export let quotes = [{
 }, {
     quote: "You know you're in love when you can't fall asleep because reality is finally better than your dreams.",
     author: "Dr. Seuss"
-}]
+}, {
+    quote: "We accept the love we think we deserve.",
+    author: "Stephen Chbosky, The Perks of Being a Wallflower"
+}, {
+    quote: "I am so clever that sometimes I don't understand a single word of what I am saying.",
+    author: "Oscar Wilde, The Happy Prince and Other Stories"
+}, {
+    quote: "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
+    author: "Ralph Waldo Emerson"
+}                                  
+]
