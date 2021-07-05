@@ -31,7 +31,5 @@ export let quotes = [{
 }, {
     quote: "To be yourself in a world that is constantly trying to make you something else is the greatest accomplishment.",
     author: "Ralph Waldo Emerson"
-}, 
-                    
-                
+}                                  
 ]
