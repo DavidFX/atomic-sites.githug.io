@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon">
+    <link rel="stylesheet" href="/css/main.css">
+    <title>Tip calculator</title>
+</head>
+
+<body>
+
+    <div class="bg">
+
+        <div class="main__card">
+            <div class="title">
+                <div class="title__inner">Tip calculator</div>
+            </div>
+
+
+            <p class="text bill">How much was your bill?</p>
+
+            <div class="block">
+                <!-- <p class="text dollar">$</p> -->
+                <input type="text" placeholder="Amount of bill" class="price">
+            </div>
+
+            <p class="text">How was the service</p>
+
+            <select name="quality" class="service">
+                <option class="service__selector" value="null">-- Choose an option -- </option>
+                <option class="service__selector" value="1">Amazing</option>
+                <option class="service__selector" value="2">Good</option>
+                <option class="service__selector" value="3">Nothing special</option>
+            </select>
+
+
+            <p class="text">How many people are sharing the bill?</p>
+            <div class="block">
+                <input type="text" class="people" placeholder="Number of people">
+                <!-- <p class="text persons">persons</p> -->
+            </div>
+
+
+            <a href="#" class="btn">Calculate</a>
+
+            <h4 class="result"></h4>
+        </div>
+
+    </div>
+
+
+
+    <script src="/js/app.js"></script>
+</body>
+
+</html>
