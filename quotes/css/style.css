@@ -1,66 +1,67 @@
 @import url('https://fonts.googleapis.com/css2?family=Merriweather:ital@1&family=Montserrat:wght@500&display=swap');
 
-body {
-    background: rgba(0, 0, 0, .8);
+
+html {
     font-family: 'Montserrat', sans-serif;
+    height: 100%;
+    background-color: rgba(7, 7, 7, 0.5);
+}
+
+
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+
 }
 
 h1 {
-    font-size: 30px;
+    font-size: 25px;
     font-weight: bold;
     text-align: center;
     padding: 30px;
     color: white;
 }
 
-#qoute-box {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
 
-#quote {
-    font-family: 'Merriweather', serif;
-    font-style: italic;
-    font-weight: 400;
-
-}
-
-.inner__quote {
-    display: flex;
-    flex-direction: column;
-    min-width: 500px;
-    height: 100px;
-    background-color: wheat;
-    padding: 5%;
-    border-radius: 20px;
-    position: relative;
-    font-size: 20px;
-    color: white;
-}
-
-.author {
-    position: absolute;
-    bottom: 0;
-    padding: 5% 0;
-}
-
-#btn {
+.btn {
+    text-align: center;
     font-size: 20px;
     margin: 40px;
     padding: 20px 30px;
     text-decoration: none;
-    color: white;
-    background-color: teal;
+    color: #181818;
+    background-color: white;
     border-radius: 10px;
     transition: .1s linear;
+    margin: 0 auto;
+
+    bottom: 30px;
+
+    margin-top: 50px;
 }
 
-#btn:hover {
-    padding: 25px 35px;
-    background-color: rgba(0, 0, 0, 0);
-    border-radius: 10px;
-    border: teal 3px solid;
-    color: white;
+/* Quote card
+================================ */
+
+.inner__quote {
+    color: #181818;
+    display: flex;
+    flex-direction: column;
+    max-width: 305px;
+    max-height: 15%;
+    padding: 50px;
+    margin: 0 auto;
+    border-radius: 15%;
+
+    resize: both;
+    overflow: auto;
+}
+
+.quote {
+    font-style: italic;
+}
+
+.author {
+    padding-top: 50px;
 }

@@ -7,9 +7,9 @@ import {
 } from "./colors.js"
 
 
-const button = document.getElementById("btn")
-const quoteText = document.getElementById("quote")
-const authorText = document.getElementById("author")
+const button = document.querySelector(".btn")
+const quoteText = document.querySelector(".quote")
+const authorText = document.querySelector(".author")
 const card = document.querySelector(".color")
 
 let maxQuotes = quotes.length;
